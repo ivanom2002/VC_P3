@@ -2,7 +2,7 @@
 
 Tarea 1: Para esta tarea hemos realizado distintas fotografías de monedas con algún objeto que no lo sea. Una vez obtuvimos dichas fotografías analizamos el histograma de estas para obtener un valor umbral adecuado de cara a separar los objetos del fondo de la imagen. Una vez separados los objetos, utilizamos la "Transformada de Hough" para detectar las monedas y de esta forma poder calcular cuántas monedas hay en cada imagen.
 
-<img href="[ResultadoTarea1.png](https://github.com/ivanom2002/VC_P3/blob/main/ResultadoTarea1.png)"/>
+<img href="https://github.com/ivanom2002/VC_P3/blob/main/ResultadoTarea1.png"/>
 
 Tarea 2: Reutilizando el código de la tarea anterior que detectaba las monedas y usando unas proporciones basadas en las medidas en milímetros de las monedas hemos podido contar de forma aproximada el valor del dinero presente en la imagen. Como problemas hemos encontrado que los radios obtenidos para las monedas a través de la "Transformada de Hough" no son exactos y hay pequeños errores por lo que debemos tener una cierta tolerancia a la hora de comprobar si se cumplen las proporciones. Por otro lado, hemos detectado que al solapar monedas se confunden unas con otras, esto último puede deberse a que al no estar planas en la imagen el error a la hora de calcular el radio de la moneda sea aún mayor. 
 
